@@ -1,0 +1,6 @@
+setup:
+  addons:
+    - plan: heroku-buildpack-nginx
+build:
+  docker:
+    web: Dockerfile
