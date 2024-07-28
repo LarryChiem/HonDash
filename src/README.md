@@ -47,6 +47,32 @@ sudo apt -y install vim
 sudo apt install rpi-eeprom rpi-eeprom-images
 sudo rpi-eeprom-update -a
 ```
+### Using Windows Subsystem for Linux (WSL)
+If you need a Linux-like environment on Windows that supports sudo, apt-get, and other Linux commands, consider using Windows Subsystem for Linux (WSL). Here’s how you can set it up:
+
+Enable WSL:
+
+Open PowerShell as Administrator and run:
+powershell
+Copy code
+```sh
+wsl --install
+```
+
+Follow the prompts to install WSL and choose a Linux distribution (e.g., Ubuntu).
+Set Up WSL:
+
+After installation, launch your Linux distribution from the Start menu.
+Update the package list and install any required packages:
+bash
+```sh
+sudo apt-get update
+sudo apt-get install build-essential git
+```
+
+Clone and Set Up the Project:
+
+Use the same steps as mentioned below, but within the WSL terminal:
 
 #### Install the project
 Clone this project:
