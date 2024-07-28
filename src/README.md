@@ -2,6 +2,8 @@
 
 ## How to run this project in a Raspberry Pi?
 
+Install Docker [https://www.docker.com/products/docker-desktop/]
+
 ### With Docker
 for the first time:
 ```sh
